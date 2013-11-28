@@ -10,7 +10,7 @@
 # Version: 0.082 (04 Sep 2001)
 # Version: 0.083 (15 Apr 2008)
 # Version: 0.084 (13 Jun 2008)
-# Version: 0.085 (unreleased)
+# Version: 0.085 (28 Nob 2013)
 #
 #######################################################################
 
@@ -2800,10 +2800,15 @@ use, refer to the Microsoft Win32 Internet Functions document.
 
 =over
 
-=item * 0.085 (unreleased)
+=item * 0.085 (28 Nov 2013)
 
 HttpSendRequest() now works for binary data too.
 Requested by Gregory Burmistrov.
+
+Fix required perl version 5.6 -> 5.006 and add Github repo link to
+META.yml.
+
+Typo fixes by David Steinbrunner.
 
 =item * 0.084 (13 Jun 2008)
 
