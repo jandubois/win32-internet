@@ -12,6 +12,7 @@
 # Version: 0.084 (13 Jun 2008)
 # Version: 0.085 (28 Nov 2013)
 # Version: 0.086 (11 Dec 2013)
+# Version: 0.087 (17 Dec 2013)
 #
 #######################################################################
 
@@ -155,7 +156,7 @@ sub AUTOLOAD {
 #######################################################################
 # STATIC OBJECT PROPERTIES
 #
-$VERSION = "0.086";
+$VERSION = "0.087";
 
 %callback_code = ();
 %callback_info = ();
@@ -2800,6 +2801,12 @@ use, refer to the Microsoft Win32 Internet Functions document.
 =head1 VERSION HISTORY
 
 =over
+
+=item * 0.087 (17 Dec 2013)
+
+META.yml and Internet.pm in the 0.086 release on CPAN had some
+bytes near the end overwritten with '\0' bytes.  No idea how that
+happened; uploading with a new version number to fix.
 
 =item * 0.086 (11 Dec 2013)
 
